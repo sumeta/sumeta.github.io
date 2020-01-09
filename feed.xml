@@ -14,20 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/article/2020-01-03-ssstest-article-html/"/>
     <id>http://blog.url.com/article/2020-01-03-ssstest-article-html/</id>
     <published>2020-01-04T00:44:00+07:00</published>
-    <updated>2020-01-04T01:26:00+07:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;xxxx&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>Test Article</title>
-    <link rel="alternate" href="http://blog.url.com/article/test-article-html/"/>
-    <id>http://blog.url.com/article/test-article-html/</id>
-    <published>2020-01-04T00:44:00+07:00</published>
-    <updated>2020-01-04T01:31:02+07:00</updated>
+    <updated>2020-01-09T20:38:24+07:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -40,7 +27,7 @@
     <link rel="alternate" href="http://blog.url.com/article/2020-01-03-my-new-article-html/"/>
     <id>http://blog.url.com/article/2020-01-03-my-new-article-html/</id>
     <published>2020-01-03T22:35:00+07:00</published>
-    <updated>2020-01-04T00:47:41+07:00</updated>
+    <updated>2020-01-09T20:38:28+07:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -55,7 +42,7 @@ cccc
     <link rel="alternate" href="http://blog.url.com/article/2012-01-01-example-article-html/"/>
     <id>http://blog.url.com/article/2012-01-01-example-article-html/</id>
     <published>2012-01-01T07:00:00+07:00</published>
-    <updated>2020-01-04T00:47:37+07:00</updated>
+    <updated>2020-01-09T20:38:34+07:00</updated>
     <author>
       <name>Article Author</name>
     </author>
