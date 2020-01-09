@@ -409,3 +409,14 @@ footer .copyright {
   font-size: 16px;
   padding: 25px 35px;
 }
+
+pre{
+  background: #f7f7f9;
+  border: 1px solid #d1d1e8;
+}
+
+pre code {
+  color: #000;
+  font-size: 80%;
+}
+
