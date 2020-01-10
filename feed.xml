@@ -5,10 +5,48 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2020-01-10T00:44:00+07:00</updated>
+  <updated>2020-01-10T17:14:00+07:00</updated>
   <author>
     <name>Blog TPSumeta</name>
   </author>
+  <entry>
+    <title>Springboot run and deploy</title>
+    <link rel="alternate" href="http://blog.url.com/article/springboot-run-and-deploy-html/"/>
+    <id>http://blog.url.com/article/springboot-run-and-deploy-html/</id>
+    <published>2020-01-10T17:14:00+07:00</published>
+    <updated>2020-01-10T22:16:15+07:00</updated>
+    <author>
+      <name>Article TPSumeta</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Build&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;
+ mvnw clean install
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Run&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;
+ java -jar java.jar
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Run Production&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;
+ java -jar -Dspring.profiles.active=pro java.jar
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Deploy Production&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;
+ java -jar -Dspring.profiles.active=pro java.jar &amp;amp;
+&lt;/code&gt;
+&lt;/pre&gt;
+</content>
+  </entry>
   <entry>
     <title>Vue Command</title>
     <link rel="alternate" href="http://blog.url.com/article/vue-command-html/"/>
