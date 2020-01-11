@@ -5,16 +5,77 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2020-01-10T17:14:00+07:00</updated>
+  <updated>2020-01-11T08:28:00+07:00</updated>
   <author>
     <name>Blog TPSumeta</name>
   </author>
   <entry>
-    <title>Springboot run and deploy</title>
+    <title>Spring Boot Enabling Cross Origin</title>
+    <link rel="alternate" href="http://blog.url.com/article/spring-boot-enabling-cross-origin-html/"/>
+    <id>http://blog.url.com/article/spring-boot-enabling-cross-origin-html/</id>
+    <published>2020-01-11T08:28:00+07:00</published>
+    <updated>2020-01-11T08:35:03+07:00</updated>
+    <author>
+      <name>Article TPSumeta</name>
+    </author>
+    <content type="html">&lt;h3 id="controller"&gt;เปิดใช้งานที่ Controller&lt;/h3&gt;
+
+&lt;p&gt;เปิดที่ Port 8081&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;
+ @CrossOrigin(origins = "http://localhost:8081")
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;เปิดทุก Port&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code&gt;
+ @CrossOrigin(origins = "*")
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id="global-cors"&gt;กำหนดแบบ Global CORS&lt;/h3&gt;
+
+&lt;p&gt;เปิด Path hello และ port 9000&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;
+ @Bean
+  public WebMvcConfigurer corsConfigurer() {
+    return new WebMvcConfigurer() {
+      @Override
+      public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/hello").allowedOrigins("http://localhost:9000");
+      }
+    };
+  }
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;เปิดทุก path ทุก port&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;
+ @Bean
+ public WebMvcConfigurer corsConfigurer() {
+  return new WebMvcConfigurer() {
+      @Override
+      public void addCorsMappings(CorsRegistry registry) {
+          registry.addMapping("/**").allowedOrigins("*");
+      }
+  };
+ }
+&lt;/code&gt;
+&lt;/pre&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Spring Boot run and deploy</title>
     <link rel="alternate" href="http://blog.url.com/article/springboot-run-and-deploy-html/"/>
     <id>http://blog.url.com/article/springboot-run-and-deploy-html/</id>
     <published>2020-01-10T17:14:00+07:00</published>
-    <updated>2020-01-10T22:16:15+07:00</updated>
+    <updated>2020-01-11T08:34:20+07:00</updated>
     <author>
       <name>Article TPSumeta</name>
     </author>
