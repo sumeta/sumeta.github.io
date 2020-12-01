@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "UiPath Orchestrator"
-date:   2020-11-01 09:53:10 +0700
+date:   2020-12-01 09:53:10 +0700
 categories: RPA
 published: true
 ---
