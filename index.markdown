@@ -7,5 +7,5 @@ layout: home
 
 <div align="center">
     <h1>SUMETA PONGPANNA</h1>
-    <h1>Software Developer</h1>
+    <h1>Senior Software Developer</h1>
 </div>
